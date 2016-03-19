@@ -12,7 +12,7 @@
     <div class="container-fluid" ng-controller="MainCtrl">
         <div class="row">
             <div class="col-sm-3 col-md-2 sidebar">
-                <a href="#" ng-click="setCurrentCategory(null)"><img class="logo" src="https://upload.wikimedia.org/wikipedia/en/thumb/d/d3/Starbucks_Corporation_Logo_2011.svg/1017px-Starbucks_Corporation_Logo_2011.svg.png"></a>
+                <a href="#" ng-click="setCurrentCategory(null)"><img class="logo" src="https://upload.wikimedia.org/wikipedia/commons/a/ab/Logo_TV_2015.png"></a>
                 <ul class="nav nav-sidebar">
                     <li ng-repeat="category in categories" ng-class="{'active': isCurrentCategory(category)}"><a href="#" ng-click="setCurrentCategory(category)">{{category.name}}</a></li>
                 </ul>
