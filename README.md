@@ -1,1 +1,1 @@
-### Random project to learn new things with AngularJS
+### Random project built to learn more about AngularJS 
